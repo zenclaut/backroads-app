@@ -1,65 +1,72 @@
 # 🌍 Backroads App - Tour & Travel Company Website
 
-Modern, responsive ve şık bir turizm / seyahat acentesi web sitesi React uygulaması.
+A modern, fully responsive, and elegant tour & travel agency landing page built with React.
 
 ---
 
-## 🚀 Canlı Önizleme (Live Demo)
+## 🚀 Live Demo
 
-Projeyi tarayıcınızda canlı olarak test edebilir ve inceleyebilirsiniz:
+You can preview and test the live application directly in your browser:
 
 👉 **[https://zenclaut.github.io/backroads-app/](https://zenclaut.github.io/backroads-app/)**
 
 ---
 
-## ✨ Özellikler (Features)
+## ✨ Features
 
-- **Duyarlı Tasarım (Responsive Design):** Mobil, tablet ve masaüstü cihazlarla tam uyumlu arayüz.
-- **Bileşen Mimarisi (Component-Based):** Modüler ve yeniden kullanılabilir React bileşenleri (`Navbar`, `Hero`, `About`, `Services`, `Tours`, `Footer`).
-- **Dinamik Veri Yapısı:** Verilerin tek bir kaynaktan (`data.js`) kolayca yönetilebildiği ve haritalandığı yapı.
-- **Modern UI & Efektler:** Yumuşak kaydırma (smooth scroll), hover efektleri ve ikonlar.
+- **Responsive Design:** Seamless experience across mobile, tablet, and desktop screens.
+- **Component-Based Architecture:** Clean, modular, and reusable React components (`Navbar`, `Hero`, `About`, `Services`, `Tours`, `Footer`).
+- **Dynamic Data Rendering:** Centralized data structure (`data.js`) for easy content management and mapping.
+- **Modern UI & UX:** Smooth scrolling, interactive hover effects, and Font Awesome iconography.
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler (Tech Stack)
+## 🛠️ Tech Stack
 
 - **React 19**
 - **JavaScript (ES6+)**
 - **CSS3 / Flexbox & Grid**
 - **Font Awesome Icons**
-- **GitHub Pages & GitHub Actions** (CI/CD Deployment)
+- **GitHub Pages & GitHub Actions** (Automated CI/CD Deployment)
 
 ---
 
-## 💻 Kurulum ve Yerel Geliştirme (Getting Started)
+## 💻 Getting Started
 
-Projeyi yerel makinenizde çalıştırmak için:
+To run this project locally on your machine:
 
-1. **Repoyu klonlayın:**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/zenclaut/backroads-app.git
    cd backroads-app
    ```
 
-2. **Bağımlılıkları yükleyin:**
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-3. **Geliştirme sunucusunu başlatın:**
+3. **Start the development server:**
    ```bash
    npm start
    ```
-   Tarayıcınızda `http://localhost:3000` adresinde açılacaktır.
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ---
 
-## 📦 Canlıya Alma (Deployment)
+## 📦 Deployment
 
-Proje GitHub Pages üzerinde barındırılmaktadır. Yeni değişiklikleri yayınlamak için:
+This project is deployed to GitHub Pages.
 
+To trigger a manual deployment:
 ```bash
 npm run deploy
 ```
 
-Veya `main` branch'ine push attığınızda GitHub Actions workflow'u (`.github/workflows/deploy.yml`) otomatik olarak canlı sürümü güncelleyecektir.
+Alternatively, any push to the `main` branch automatically triggers the GitHub Actions workflow (`.github/workflows/deploy.yml`) to build and deploy the latest version.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
